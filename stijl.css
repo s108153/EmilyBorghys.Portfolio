@@ -1,0 +1,463 @@
+:root {
+	font-size: 62.5%;
+}
+
+@font-face {
+	font-family: MyFirstFont;
+	src: url(Quicksand_Light.otf);
+}
+
+body {
+	padding: 3rem;
+	font-family: MyFirstFont;
+	width: 90vw;
+	margin: 5vw auto;
+}
+
+@font-face {
+	font-family: MyFont;
+	src: url(Quicksand_Dash.otf);
+}
+
+h1 {
+	font-family: MyFont;
+	font-size: 3rem;
+	text-align: center;
+	margin-top: -3rem;
+}
+
+span {
+	font-size: 30px;
+	margin-top: -3rem;
+}
+
+.mymenu {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #ffffff;
+	overflow-x: hidden;
+	transition: 0.4s;
+}
+
+.content {
+	margin: 2rem 0 0 1rem;
+}
+
+.mymenu a {
+	padding: 1.5rem;
+	text-decoration: none;
+	font-size: 2rem;
+	color: #333333;
+	display: block;
+	transition: 0.4s;
+}
+
+.mymenu a:hover {
+	color: #707070;
+}
+
+.active {
+	color: #707070;
+}
+
+.mymenu .close, .open {
+	position: absolute;
+	top: 37px;
+	right: 45px;
+	font-size: 5rem;
+}
+
+.open {
+	font-size: 6rem;
+}
+
+.close {
+	margin: -3rem -2rem 0 0;
+}
+
+main {
+	margin-bottom: -5rem;
+}
+
+.container {
+	position: relative;
+	margin: 0 0 0 -5rem;
+	width: 125%;
+}
+
+#afb1 {
+	margin-top: 2rem;
+}
+
+#afb1, #afb2, #afb3, #afb4, #afb5, #afb6, #afb7, #afb8, #afb9, #afb10, #afb11, #afb12, #afb13, #afb14, #afb15, #afb16, #afb17, #afb18, #afb19, #afb20, #afb21, #afb22, #afb23, #afb24, #afb25, #afb26, #afb27, #afb28, #afb29, #afb30, #afb31, #afb32, #afb33, #afb34 {
+	display: block;
+	width: 100%;
+}
+
+#tekst1, #tekst2, #tekst3, #tekst4, #tekst5, #tekst6, #tekst7, #tekst8, #tekst9, #tekst10, #tekst11, #tekst12, #tekst13, #tekst14, #tekst15, #tekst16, #tekst17, #tekst18, #tekst19, #tekst20, #tekst21, #tekst22, #tekst23, #tekst24, #tekst25, #tekst26, #tekst27, #tekst28, #tekst29, #tekst30, #tekst31, #tekst32, #tekst33, #tekst34 {
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	background-image: linear-gradient(to right, rgba(153, 153, 153, 0.5), rgba(0, 0, 0, 0.5));
+	color: #ffffff;
+	width: 100%;
+	transition: .5s ease;
+	opacity: 0;
+	font-size: 2rem;
+	padding: 2rem;
+	text-align: center;
+}
+
+.container:hover #tekst1 {
+	opacity: 1;
+}
+
+.container:hover #tekst2 {
+	opacity: 1;
+}
+
+.container:hover #tekst3 {
+	opacity: 1;
+}
+
+.container:hover #tekst4 {
+	opacity: 1;
+}
+
+.container:hover #tekst5 {
+	opacity: 1;
+}
+
+.container:hover #tekst6 {
+	opacity: 1;
+}
+
+.container:hover #tekst7 {
+	opacity: 1;
+}
+
+.container:hover #tekst8 {
+	opacity: 1;
+}
+
+.container:hover #tekst9 {
+	opacity: 1;
+}
+
+.container:hover #tekst10 {
+	opacity: 1;
+}
+
+.container:hover #tekst11 {
+	opacity: 1;
+}
+
+.container:hover #tekst12 {
+	opacity: 1;
+}
+
+.container:hover #tekst13 {
+	opacity: 1;
+}
+
+.container:hover #tekst14 {
+	opacity: 1;
+}
+
+.container:hover #tekst15 {
+	opacity: 1;
+}
+
+.container:hover #tekst16 {
+	opacity: 1;
+}
+
+.container:hover #tekst17 {
+	opacity: 1;
+}
+
+.container:hover #tekst18 {
+	opacity: 1;
+}
+
+.container:hover #tekst19 {
+	opacity: 1;
+}
+
+.container:hover #tekst20 {
+	opacity: 1;
+}
+
+.container:hover #tekst21 {
+	opacity: 1;
+}
+
+.container:hover #tekst22 {
+	opacity: 1;
+}
+
+.container:hover #tekst23 {
+	opacity: 1;
+}
+
+.container:hover #tekst24 {
+	opacity: 1;
+}
+
+.container:hover #tekst25 {
+	opacity: 1;
+}
+
+.container:hover #tekst26 {
+	opacity: 1;
+}
+
+.container:hover #tekst27 {
+	opacity: 1;
+}
+
+.container:hover #tekst28 {
+	opacity: 1;
+}
+
+.container:hover #tekst29 {
+	opacity: 1;
+}
+
+.container:hover #tekst30 {
+	opacity: 1;
+}
+
+.container:hover #tekst31 {
+	opacity: 1;
+}
+
+.container:hover #tekst32 {
+	opacity: 1;
+}
+
+.container:hover #tekst33 {
+	opacity: 1;
+}
+
+.container:hover #tekst34 {
+	opacity: 1;
+}
+
+p {
+	width: 100%;
+	margin-left: 1rem;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+@supports (grid-area: auto) {
+
+	@media (min-width: 640px) {
+		.container {
+			margin-left: -6rem;
+			width: 121%;
+		}
+
+		span {
+			display: none;
+		}
+
+		.content {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		}	
+
+		.mymenu {
+			margin: -0.5rem 0 0 -1rem;
+			overflow-x: visible;
+		}
+
+		.mymenu a {
+			padding: 1rem;
+		}
+
+		h1 {
+			text-align: right;
+			margin: -4.2rem -5rem 0 0;
+			font-size: 2.5rem;
+		}
+
+		p {
+			width: 100%;
+			margin: -4rem 0 -0.5rem 1rem;
+			font-size: 1.5rem;
+		}
+	}
+
+	@media (min-width: 900px) {
+		.container {
+			width: 118%;
+		}
+
+		.mymenu {
+			margin: -2rem 0 0 2rem;
+		}
+
+		.mymenu a {
+			padding: 2rem;
+		}
+
+		h1 {
+			text-align: right;
+			margin: -8.6rem 8rem 2rem 0;
+		}
+
+		main {
+			column-count: 4;
+			margin-bottom: -9rem;
+		}
+
+		#afb1, #tekst1 {
+			margin-top: 0rem;
+			margin-left: -3.5rem;
+		}
+
+		#afb2, #tekst2 {
+			margin-left: -3.5rem;
+		}
+
+		#afb3, #tekst3 {
+			margin-left: -3.5rem;
+		}
+
+		#afb4, #tekst4 {
+			margin-left: -3.5rem;
+		}
+
+		#afb5, #tekst5 {
+			margin-left: 0.9rem;
+		}
+
+		#afb6, #tekst6 {
+			margin-left: 0.9rem;
+		}
+
+		#afb7, #tekst7 {
+			margin-left: 5.3rem;
+		}
+
+		#afb8, #tekst8 {
+			margin-left: 5.3rem;
+		}
+
+		#afb9, #tekst9 {
+			margin-left: 9.7rem;
+		}
+
+		#afb10, #tekst10 {
+			margin-left: 9.7rem;
+		}
+
+		#afb11, #tekst11 {
+			margin-left: 9.7rem;
+		}
+
+		#afb12, #tekst12 {
+			margin-left: -3.5rem;
+		}
+
+		#afb13, #tekst13 {
+			margin-left: -3.5rem;
+		}
+
+		#afb14, #tekst14 {
+			margin-left: -3.5rem;
+		}
+
+		#afb15, #tekst15 {
+			margin-left: -3.5rem;
+		}
+
+		#afb16, #tekst16 {
+			margin-left: -3.5rem;
+		}
+
+		#afb17, #tekst17 {
+			margin-left: 0.9rem;
+		}
+
+		#afb18, #tekst18 {
+			margin-left: 0.9rem;
+		}
+
+		#afb19, #tekst19 {
+			margin-left: 0.9rem;
+		}
+
+		#afb20, #tekst20 {
+			margin-left: 0.9rem;
+		}
+
+		#afb21, #tekst21 {
+			margin-left: 5.3rem;
+		}
+
+		#afb22, #tekst22 {
+			margin-left: 5.3rem;
+		}
+
+		#afb23, #tekst23 {
+			margin-left: 5.3rem;
+		}
+
+		#afb24, #tekst24 {
+			margin-left: 5.3rem;
+		}
+
+		#afb25, #tekst25 {
+			margin-left: 5.3rem;
+		}
+
+		#afb26, #tekst26 {
+			margin-left: 5.3rem;
+		}
+
+		#afb27, #tekst27 {
+			margin-left: 5.3rem;
+		}
+
+		#afb28, #tekst28 {
+			margin-left: 5.3rem;
+		}
+
+		#afb29, #tekst29 {
+			margin-left: 9.7rem;
+		}
+
+		#afb30, #tekst30 {
+			margin-left: 9.7rem;
+			text-align: left;
+		}
+
+		#afb31, #tekst31 {
+			margin-left: 9.7rem;
+		}
+
+		#afb32, #tekst32 {
+			margin-left: 9.7rem;
+		}
+
+		#afb33, #tekst33 {
+			margin-left: 9.7rem;
+		}
+
+		#afb34, #tekst34 {
+			margin-left: 9.7rem;
+		}
+
+		p {
+			font-size: 1.8rem;
+			margin: -15rem 0 -0.5rem 3rem;
+		}
+	}
+}
